@@ -55,11 +55,14 @@ a {
 }
 
 .image {
-    background-color: #E5E7EB;
+    background-color: #8d8b8b;
     width: 500px;
     height: 250px;
     flex-shrink: 0;
     margin-left: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .button1 {

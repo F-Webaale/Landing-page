@@ -65,15 +65,26 @@ a {
     align-items: center;
 }
 
-.button1 {
+.button1,
+.button2 {
     background-color: #3882f6;
     color: white;
     font-size: 18px;
     font-weight: 600;
-    border: 0;
     padding: 5px 30px;
     border-radius: 5px;
+    flex-shrink: 0;
 }
+
+.button1 {
+    border: 0;
+}
+
+.button2 {
+    border: 2px solid;
+}
+
+
 
 .hero-content {
     display: flex;
@@ -152,3 +163,41 @@ a {
     align-self: flex-end;
 }
 
+.call-to-action {
+    background-color: white;
+    height: 300px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.CTA {
+    background-color: #3882f6;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    padding: 0 100px;
+    border-radius: 10px;
+}
+
+.call-to-action h4 {
+    font-size: 24px;
+}
+
+.call-to-action p {
+    font-size: 18px;
+}
+
+.copyright {
+    background-color: #1F2937;
+    height: 100px;
+    color: white;
+    font-size: 18px;
+    font-weight: 500px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

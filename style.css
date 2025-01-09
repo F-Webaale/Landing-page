@@ -79,3 +79,43 @@ a {
     display: flex;
     margin: auto;
 }
+
+.products {
+    height: 500px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.products h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin-bottom: 50px;
+}
+
+.images {
+    display: flex;
+}
+
+.image1 {
+    border: #3882f6 solid 3px;
+    height: 120px;
+    width: 120px;
+    border-radius: 10px;
+}
+
+.image-content{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-content p {
+    font-size: 18px;
+    color: #8d8b8b;
+    text-align: center;
+}
